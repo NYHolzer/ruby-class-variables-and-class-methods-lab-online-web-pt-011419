@@ -16,6 +16,10 @@ class Song
     @@artists << artist 
   end
   
+  def count 
+    @@count
+  end 
+  
   def genre_count 
     genre_count = {}
     count = 0 
