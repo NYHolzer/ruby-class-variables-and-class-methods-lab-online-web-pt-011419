@@ -20,7 +20,7 @@ class Song
     @@count
   end 
   
-  def genre_count 
+  def self.genre_count 
     genre_count = {}
     count = 0 
     @@genres.each do |genre| 
