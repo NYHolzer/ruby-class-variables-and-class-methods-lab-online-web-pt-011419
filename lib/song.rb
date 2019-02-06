@@ -16,18 +16,6 @@ class Song
     @@artists << artist 
   end
   
-  def count
-    @@count 
-  end 
-  
-  def genres 
-    @@genres   
-  end 
-  
-  def artists 
-    @@artists
-  end 
-  
   def genre_count 
     genre_count = {}
     count = 0 
