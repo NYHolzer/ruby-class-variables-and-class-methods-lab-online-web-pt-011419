@@ -16,6 +16,8 @@ class Song
     @@artists << artist 
   end
   
-  
+  def genre_count 
+    
+  end
   
 end
